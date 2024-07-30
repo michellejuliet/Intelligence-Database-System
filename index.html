@@ -3,16 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Product Db</title>
-    <link rel="stylesheet" href="/styles.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <!-- Header-->
-    <header>
-        <h1>Intelligent Product Management System</h1>
-    </header>
-    <br>
-    <!-- Navigation bar-->
     <nav>
         <ul>
             <li><a href="#">Home</a></li>
@@ -21,13 +15,20 @@
             <li><a href="/contact.html">Contact</a></li>
         </ul>
     </nav>
+    <!-- Header-->
+    <header>
+        <h1>Intelligent Product Management System</h1>
+    </header>
+    <br>
+    <!-- Navigation bar-->
+   
     <!-- Form details-->
     <main>
         <section id="product-form">
             <h3>Add New Product</h3>
-            <form id="add-product-form">
-                <label for="item_name">Item Name:</label>
-                <input type="text" id="item_name" name="item_name" required>
+            <form id="add-product-form" onsubmit="return false;">
+                <label for="item-name">Item Name:</label>
+                <input type="text" id="item-name" name="item_name" required>
                 
 
                 <label for="category">Category:</label>
@@ -38,13 +39,13 @@
                 <input type="text" id="segment" name="segment" required>
                 
 
-                <label for="manufacturer">Manufacturer:</label>
+                 <label for="manufacturer">Manufacturer:</label>
                 <input type="text" id="manufacturer" name="manufacturer" required>
                 
 
                 <label for="brand">Brand:</label>
                 <input type="text" id="brand" name="brand" required>
-                
+                 
 
                 <label for="variant">Variant:</label>
                 <input type="text" id="variant" name="variant">
@@ -60,27 +61,27 @@
                 <input type="text" id="flavour" name="flavour">
                 
 
-                <label for="add_on">Add-On:</label>
-                <input type="text" id="add_on" name="add_on">
+                <label for="add-On">Add-On:</label>
+                <input type="text" id="add-On" name="add-On">
                 
 
-                <label for="pack_size">Pack Size:</label>
-                <input type="text" id="pack_size" name="pack_size" required>
+                <label for="pack-size">Pack Size:</label>
+                <input type="text" id="pack-size" name="pack-size" required>
                 
 
-                <label for="package_type">Package Type:</label>
-                <input type="text" id="package_type" name="package_type" required>
+                <label for="package-type">Package Type:</label>
+                <input type="text" id="package-type" name="package-type" required>
                 
 
                 <label for="barcode">Barcode:</label>
                 <input type="text" id="barcode" name="barcode">
                 
 
-                <label for="image_url">Image URL:</label>
-                <input type="url" id="image_url" name="image_url">
-                
+                <label for="image-url">Image URL:</label>
+                <input type="url" id="image-url" name="image-url">
+                 
 
-                <button type="submit">Add Product</button>
+                <button type="submit" class="add-button">Add Product</button>
             </form>
         </section>
         <section id="product-list">
@@ -90,7 +91,7 @@
     </main>
 
     <!-- Connect the javascript file-->
-    <script src="/main.js"></script>
+   
 
      <!--Footer section-->
      <footer>
@@ -103,5 +104,6 @@
 
         <i>&copy Mitchy J  2023</i>
     </footer>
+    <script src="script.js"></script>
 </body>
 </html>
