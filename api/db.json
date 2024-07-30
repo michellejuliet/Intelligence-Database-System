@@ -1,0 +1,49 @@
+{
+  "products": [
+    {
+      "Item Name": "Laptop",
+      "Category": "X-UK",
+      "Segment": "null",
+      "Manufacturer": "hp",
+      "Brand": "BANG & OLUFSEN",
+      "Variant": "grey",
+      "Type": "null",
+      "Fragrance": "null",
+      "Flavour": "null",
+      "Add-On": "null",
+      "Pack-Size": "medium",
+      "id": "fb22"
+    },
+    {
+      "Item Name": "Laptop",
+      "Category": "X-UK",
+      "Segment": "null",
+      "Manufacturer": "hp",
+      "Brand": "BANG & OLUFSEN",
+      "Variant": "grey",
+      "Type": "null",
+      "Fragrance": "null",
+      "Flavour": "null",
+      "Add-On": "null",
+      "Pack-Size": "medium",
+      "id": "4232"
+    },
+    {
+      "id": "a51e",
+      "itemName": "green",
+      "category": "Brayo",
+      "segment": "Brayo",
+      "manufacturer": "Brayo",
+      "brand": "Brayo",
+      "variant": "Brayo",
+      "type": "Brayo",
+      "fragrance": "Brayo",
+      "flavour": "Brayo",
+      "addOn": "Brayo",
+      "packSize": "Brayo",
+      "packageType": "Brayo",
+      "barCode": "Brayo",
+      "imageUrl": "https://pin.it/3D64mPjCm"
+    }
+  ]
+}
